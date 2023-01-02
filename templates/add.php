@@ -23,7 +23,7 @@ script ('ocdownloader', 'add.min');
 
 $g = \OC::$server->getURLGenerator ();
 ?>
-<div id="app">
+<div id="content">
     <div id="app-navigation">
         <?php print_unescaped ($this->inc ('part.navigation')); ?>
     </div>
