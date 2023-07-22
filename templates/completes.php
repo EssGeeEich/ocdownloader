@@ -19,7 +19,7 @@ script ('ocdownloader', 'badger.min');
 script ('ocdownloader', 'ocdownloader.min');
 script ('ocdownloader', 'completes');
 ?>
-<div id="app">
+<div id="content">
     <div id="app-navigation">
         <?php print_unescaped ($this->inc ('part.navigation')); ?>
     </div>
